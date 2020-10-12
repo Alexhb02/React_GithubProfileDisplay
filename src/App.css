@@ -12,7 +12,151 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.html {
+  background-color: lightblue;
+}
+.counterhead {
+  padding-left: 2vh;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1.5px 1.5px green;
+}
+.bold {
+  font-weight: bold;
+  padding-left: 5vh;
+  color: darkblue;
+  padding-bottom: 0.5vh;
+  border-bottom: 0.3vh solid darkblue;
+  background-color: lightblue;
+}
+.iconImage {
+  width: 25pxx;
+  height: 25px;
+  padding-top: 6.5px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  box-shadow: 1px 1px green;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX///8AAADu7u7X19efn59xcXEYGBjQ0NDa2tq6urry8vJgYGAoKCj8/Pyqqqpra2vh4eFQUFARERHl5eWIiIi0tLTBwcEiIiKoqKhbW1sxMTE7OzuWlpZ+fn4cHBx4eHg2NjbVpiOTAAABnklEQVR4nO3dy3LaQBQEUPGIMdjijU1wHPL/XxnbqWRNz+ZmqHO+oLskNCwaMQwAAAAAAAAAAAAAAADAPVlNO7Bq7/fy9PzQgdfdeWzqN36fdONyaGm4q44dabhV19WZM5u84Vt15tA0LbitTpx6SRs+VidOre/+Gi7ThuNzdeTQNm04/KiOnNnFBYfxUh060nLkT3u6TxcNBT/MH6qD3+g9Pgz/Ocw6kD9jAAAAAAAAAKBH43bRgcfmkfDquK8eWdxo0zZWOPysDh6Il4kfxl4u4B+PecNjdebMW34Je9p8fYo/it0taON9aXcN443woTpxKn+a9rbVz4/9U3XkzDUuOAyb6tCJS9Mvn67VsW+3a5zQLt5fq6PfYr+JTwoAAAAAAAAA4D80W887cG4Zl35Z/KpeWdzs1FRwWR07cWwo2Nl0r2FS09XoazLZxwVXvbwz8a/43ZDdLWjjh839N5xWJ07lbzDt6J3zX+KCw6w6cmaeNxzm1aETTw0Fh+HUz4HR8pXm02p5/daB67npvx8AAAAAAAAAAAAAAKjxG3x2MZFndkxJAAAAAElFTkSuQmCC");
+}
+header {
+  padding-left: 0.5vh;
+  border-bottom: 0.5vh solid green;
+  margin-bottom: 20px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 1px 1px #001359;
+}
 
+.wordDescription {
+  font-size: 1.2em;
+  color: rgb(194, 236, 205);
+}
+.githubDescription {
+  margin-bottom: 2vh;
+  font-size: 1.1em;
+  margin-top: 1vh;
+  padding-left: 2vw;
+  color: white;
+}
+.menu {
+  position: absolute;
+  background-color: rgb(218, 240, 241);
+  top: 0px;
+  left: 0px;
+  width: 30vw;
+  height: 100vh;
+  z-index: 10;
+  border-right: 0.2vh solid lightgrey;
+}
+
+a {
+  color: #0060b6;
+  text-decoration: none;
+  text-shadow: 0px 0px#001359;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.homeBox {
+  margin-left: 13vw;
+  margin-right: 13vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  height: 80vh;
+  min-width: 500px;
+  min-height: 500px;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 550px) {
+  .homeBox {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.welcome {
+  color: rgb(99, 156, 255);
+  font-family: "Verdana";
+  font-size: 1.5em;
+  text-shadow: 1px 1px #dbdb13;
+}
+.backgroundMain {
+  /*background-color: rgb(204, 240, 241);*/
+  min-height: 600px;
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.menuMask {
+  position: absolute;
+  background-color: black;
+  opacity: 0.4;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+}
+
+.push {
+  margin-right: 2vh;
+  margin-bottom: 0vh;
+  font-size: 4vh;
+}
+
+.mainText {
+  font-weight: none;
+  font-size: 1.2em;
+  margin-top: 0;
+  min-width: 450px;
+  color: whitesmoke;
+}
+.spacer {
+  height: 1vh;
+}
+.menuLink {
+  list-style-type: none;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +167,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.githubProjName {
+  font-weight: bold;
+  font-size: 1.4em;
+  border-bottom: 0.25vh dashed white;
+  padding-left: 2vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  margin-bottom: 1vh;
+  color: white;
+  text-shadow: 1px 1px green;
+}
+.mainbox {
+  border-right: 1.5px solid white;
+  border-bottom: 1.5px solid white;
+  background-color: rgba(173, 216, 230, 0.792);
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  min-width: 400px;
+}
+.borderbox {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
 .App-link {
   color: #61dafb;
 }
