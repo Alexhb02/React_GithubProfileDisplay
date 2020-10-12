@@ -20,13 +20,11 @@ function Home() {
           tutorials that I watched about React. <br></br>
           <br></br>
           In this website, you will find a menu with a link to my github
-          portfolio. I primarily decided to make this website to show that I
-          know how to make API requests and displays with react.I also used an
-          example of the react-spring package through the menu as well as when
-          someone hovers over each github option. I did also go a bit overboard
-          on css styling, but I figured I'd have fun with the styling while
-          showing basic react knowledge. Proceed by clicking on the menu option
-          in the top right and choosing the "Projects" link.
+          portfolio. I generate the github portfolio through API requests. I
+          went a bit overboard with the css styling, but since this was just a
+          personal project, I thought I would have fun with it. Proceed by
+          clicking on the menu option in the top right and choosing the
+          "Projects" link.
           <br></br>
           <br></br>
           <br></br> Thanks,<br></br> <br></br> <br></br>Alexander HB.
