@@ -14,17 +14,15 @@ function Home() {
       <div class="spacer"></div>
       <div>
         <p class="mainText">
-          This is a very quick website I made to show you that I have a decent
-          understanding of React, since in the other website I sent I didn't use
-          any react. I learned react primarily through hackathons as well as
-          tutorials that I watched about React. <br></br>
+          This is a very quick website I made today, to show a decent
+          understanding of React. I learned react primarily through hackathons
+          as well as tutorials. <br></br>
           <br></br>
           In this website, you will find a menu with a link to my github
-          portfolio. I generate the github portfolio through API requests. I
-          went a bit overboard with the css styling, but since this was just a
-          personal project, I thought I would have fun with it. Proceed by
-          clicking on the menu option in the top right and choosing the
-          "Projects" link.
+          portfolio; I generated the github portfolio through API requests.
+          Since this was just a personal project, I thought I would have fun
+          with the CSS styling. Proceed by clicking on the menu option in the
+          top right and choosing the "Projects" link.
           <br></br>
           <br></br>
           <br></br> Thanks,<br></br> <br></br> <br></br>Alexander HB.
